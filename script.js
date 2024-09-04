@@ -17,7 +17,7 @@ function flipCard(card) {
         } else if (cardBack && card.querySelector('.card-back').parentNode.parentNode.textContent.includes('Carta 2')) {
             cardBack.textContent = "Parabéns, você ganhou - 2 horas de trabalho!";
         } else if (cardBack && card.querySelector('.card-back').parentNode.parentNode.textContent.includes('Carta 3')) {
-            cardBack.textContent = "Parabéns, você me deve uma mamada!";
+            cardBack.textContent = "Parabéns, você está demitido!";
         }
     }
 }
