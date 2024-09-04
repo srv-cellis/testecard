@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Cartas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-title">🎉 Jogo das Cartas Planaltão! 🎉</div>
+    <div class="card-container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">Carta 1</div>
+                <div class="card-back">Parabéns, você ganhou + 1 hora de trabalho!</div> 
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">Carta 2</div>
+                <div class="card-back">Parabéns, você ganhou - 2 horas de trabalho!</div> 
+            </div>
+        </div>
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">Carta 3</div>
+                <div class="card-back">Parabéns, você me deve uma mamada!</div> 
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
